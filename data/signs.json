@@ -1,0 +1,112 @@
+[
+  {
+    "id": "sign_stop",
+    "category": "Priority",
+    "title_fr": "STOP",
+    "title_en": "STOP",
+    "fr": "Arrêt obligatoire. Vous devez marquer un arrêt complet à la ligne ou au panneau. Puis céder le passage.",
+    "en": "Mandatory stop. You must fully stop at the line or sign. Then give way.",
+    "tip": "A rolling stop is treated as an error. Look left and right before moving.",
+    "tags": ["priority", "intersection"],
+    "keywords": ["stop", "arrêt", "ceder", "passage"]
+  },
+  {
+    "id": "sign_cedez",
+    "category": "Priority",
+    "title_fr": "CÉDEZ LE PASSAGE",
+    "title_en": "GIVE WAY",
+    "fr": "Vous devez laisser passer les véhicules sur la route prioritaire. Vous ne devez pas vous arrêter si la voie est libre.",
+    "en": "You must let vehicles on the priority road pass. You do not need to stop if the road is clear.",
+    "tip": "Difference with STOP. Stop only if needed.",
+    "tags": ["priority", "intersection"],
+    "keywords": ["cédez", "passage", "priorité"]
+  },
+  {
+    "id": "sign_priorite",
+    "category": "Priority",
+    "title_fr": "ROUTE PRIORITAIRE",
+    "title_en": "PRIORITY ROAD",
+    "fr": "Vous circulez sur une route prioritaire. Les autres usagers doivent vous céder le passage aux intersections.",
+    "en": "You are on a priority road. Other users must give way at intersections.",
+    "tip": "Priority road can end. Watch for the end sign.",
+    "tags": ["priority", "intersection"],
+    "keywords": ["prioritaire", "route", "priorité"]
+  },
+  {
+    "id": "sign_fin_priorite",
+    "category": "Priority",
+    "title_fr": "FIN DE ROUTE PRIORITAIRE",
+    "title_en": "END OF PRIORITY ROAD",
+    "fr": "La priorité de votre route se termine. Aux prochaines intersections, appliquez les règles indiquées ou la priorité à droite si rien n’est indiqué.",
+    "en": "Your road is no longer priority. At the next intersections, follow posted rules or priority to the right if there are no signs.",
+    "tip": "This sign often appears before a complex junction.",
+    "tags": ["priority", "intersection"],
+    "keywords": ["fin", "priorité", "droite"]
+  },
+  {
+    "id": "sign_sens_interdit",
+    "category": "Prohibition",
+    "title_fr": "SENS INTERDIT",
+    "title_en": "NO ENTRY",
+    "fr": "Accès interdit à tous les véhicules. Vous ne devez pas entrer.",
+    "en": "Entry forbidden to all vehicles. Do not enter.",
+    "tip": "Often used in one way streets. Look for a permitted direction sign nearby.",
+    "tags": ["signage", "intersection"],
+    "keywords": ["sens interdit", "interdit", "entrée"]
+  },
+  {
+    "id": "sign_interdit_doubler",
+    "category": "Prohibition",
+    "title_fr": "DÉPASSEMENT INTERDIT",
+    "title_en": "NO OVERTAKING",
+    "fr": "Interdiction de dépasser les véhicules à moteur. Vous devez rester derrière jusqu’à la fin de l’interdiction.",
+    "en": "Overtaking motor vehicles is forbidden. Stay behind until the end of the restriction.",
+    "tip": "Check if exceptions are shown. Example: two wheelers.",
+    "tags": ["overtake", "signage"],
+    "keywords": ["dépassement", "interdit", "doublage"]
+  },
+  {
+    "id": "sign_vitesse_50",
+    "category": "Speed",
+    "title_fr": "LIMITATION 50",
+    "title_en": "SPEED LIMIT 50",
+    "fr": "Vitesse maximale autorisée: 50 km/h, sauf indication différente. Souvent en agglomération.",
+    "en": "Maximum allowed speed: 50 km/h unless another sign applies. Often in built up areas.",
+    "tip": "If rain or fog, speed might need reduction even if limit stays the same.",
+    "tags": ["speed"],
+    "keywords": ["50", "vitesse", "agglomération"]
+  },
+  {
+    "id": "sign_danger",
+    "category": "Warning",
+    "title_fr": "DANGER",
+    "title_en": "WARNING",
+    "fr": "Annonce un danger. Le pictogramme précise le risque. Ralentissez et anticipez.",
+    "en": "Announces a hazard. The symbol specifies the risk. Slow down and anticipate.",
+    "tip": "Warning signs do not impose a rule. They indicate risk and need adaptation.",
+    "tags": ["signage"],
+    "keywords": ["danger", "panneau", "triangle"]
+  },
+  {
+    "id": "sign_passage_pietons",
+    "category": "Warning",
+    "title_fr": "PASSAGE PIÉTONS",
+    "title_en": "PEDESTRIAN CROSSING",
+    "fr": "Annonce un passage piétons. Ralentissez. Préparez vous à vous arrêter.",
+    "en": "Warns of a pedestrian crossing. Slow down. Be ready to stop.",
+    "tip": "Pedestrians have priority when engaged or about to engage under conditions.",
+    "tags": ["signage", "intersection"],
+    "keywords": ["piétons", "passage", "zébré"]
+  },
+  {
+    "id": "sign_stationnement_interdit",
+    "category": "Parking",
+    "title_fr": "STATIONNEMENT INTERDIT",
+    "title_en": "NO PARKING",
+    "fr": "Interdit de stationner. L’arrêt peut rester autorisé selon le panneau et le marquage.",
+    "en": "Parking forbidden. Stopping may still be allowed depending on sign and road markings.",
+    "tip": "Learn the difference between arrêt and stationnement.",
+    "tags": ["parking"],
+    "keywords": ["stationnement", "interdit", "arrêt"]
+  }
+]
