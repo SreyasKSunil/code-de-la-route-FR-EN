@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Code de la Route, FR-EN Study</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="theme-color" content="#0b1220" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">CR</div>
+      <div class="brandText">
+        <div class="title">Code de la Route</div>
+        <div class="subtitle">Bilingual FR-EN study material</div>
+      </div>
+    </div>
+
+    <div class="topActions">
+      <button id="modeBtn" class="btn ghost" type="button" aria-label="Toggle dark mode">Mode</button>
+      <button id="langBtn" class="btn ghost" type="button" aria-label="Toggle language">FR/EN</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="panel">
+        <div class="panelTitle">Navigation</div>
+        <nav class="nav">
+          <button class="navItem active" data-view="learn">Learn</button>
+          <button class="navItem" data-view="signs">Road signs</button>
+          <button class="navItem" data-view="rules">Rules</button>
+          <button class="navItem" data-view="vocab">Vocabulary</button>
+          <button class="navItem" data-view="flashcards">Flashcards</button>
+          <button class="navItem" data-view="quiz">Quiz</button>
+          <button class="navItem" data-view="progress">Progress</button>
+        </nav>
+      </div>
+
+      <div class="panel">
+        <div class="panelTitle">Search</div>
+        <input id="searchInput" class="input" placeholder="Search. Example: priorité, stop, vitesse, dépassement" />
+        <div class="smallHelp">Search works across signs, rules, and vocabulary.</div>
+      </div>
+
+      <div class="panel">
+        <div class="panelTitle">Study settings</div>
+        <div class="row">
+          <label class="switch">
+            <input id="showEnglishFirst" type="checkbox" />
+            <span class="slider"></span>
+          </label>
+          <div class="rowText">
+            <div class="rowTitle">English first</div>
+            <div class="rowSub">Flip bilingual order for reading comfort.</div>
+          </div>
+        </div>
+
+        <div class="row">
+          <label class="switch">
+            <input id="showHints" type="checkbox" checked />
+            <span class="slider"></span>
+          </label>
+          <div class="rowText">
+            <div class="rowTitle">Show exam tips</div>
+            <div class="rowSub">Adds short notes used in exam questions.</div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <section class="content">
+      <div id="viewHeader" class="viewHeader">
+        <div class="viewTitle" id="viewTitle">Learn</div>
+        <div class="viewSub" id="viewSub">Choose a module and study FR with EN support.</div>
+      </div>
+
+      <div id="contentArea" class="contentArea"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>Local progress saved on this device. No account required.</div>
+    <div class="footerRight">Built for Code de la Route practice</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
