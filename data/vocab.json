@@ -1,0 +1,67 @@
+[
+  {
+    "id": "vocab_chaussee",
+    "type": "Noun",
+    "word_fr": "Chaussée",
+    "word_en": "Roadway",
+    "fr": "Partie de la route réservée aux véhicules, sans le trottoir.",
+    "en": "Part of the road used by vehicles, not including the sidewalk.",
+    "tip": "Questions often contrast chaussée and accotement.",
+    "example_fr": "Je reste sur la chaussée, je ne monte pas sur le trottoir.",
+    "example_en": "I stay on the roadway, I do not drive onto the sidewalk.",
+    "example_tip": "Trottoir is for pedestrians.",
+    "tags": ["signage", "intersection"]
+  },
+  {
+    "id": "vocab_trottoir",
+    "type": "Noun",
+    "word_fr": "Trottoir",
+    "word_en": "Sidewalk",
+    "fr": "Espace réservé aux piétons sur le côté de la route.",
+    "en": "Space reserved for pedestrians on the side of the road.",
+    "tip": "Driving or parking on a sidewalk is typically forbidden unless explicitly allowed.",
+    "example_fr": "Je ne stationne pas sur le trottoir.",
+    "example_en": "I do not park on the sidewalk.",
+    "example_tip": "Look for markings or local signs.",
+    "tags": ["parking"]
+  },
+  {
+    "id": "vocab_intersection",
+    "type": "Noun",
+    "word_fr": "Intersection",
+    "word_en": "Intersection",
+    "fr": "Croisement de deux routes ou plus.",
+    "en": "Crossing of two or more roads.",
+    "tip": "Priority rules apply at intersections.",
+    "example_fr": "À l’intersection, je ralentis et j’observe.",
+    "example_en": "At the intersection, I slow down and observe.",
+    "example_tip": "Observation is a frequent grading point.",
+    "tags": ["priority", "intersection"]
+  },
+  {
+    "id": "vocab_depassement",
+    "type": "Noun",
+    "word_fr": "Dépassement",
+    "word_en": "Overtaking",
+    "fr": "Action de passer devant un autre véhicule en changeant de voie ou de position.",
+    "en": "Passing another vehicle by changing lane or position.",
+    "tip": "Often forbidden near intersections and with solid lines.",
+    "example_fr": "Je ne dépasse pas près d’un passage piétons.",
+    "example_en": "I do not overtake near a pedestrian crossing.",
+    "example_tip": "Visibility and risk control drive the rule.",
+    "tags": ["overtake", "signage"]
+  },
+  {
+    "id": "vocab_ceder",
+    "type": "Verb",
+    "word_fr": "Céder le passage",
+    "word_en": "Give way",
+    "fr": "Laisser passer un autre usager avant de s’engager.",
+    "en": "Let another road user go first before entering.",
+    "tip": "Used with STOP, Give Way, or priority to the right situations.",
+    "example_fr": "Je cède le passage aux véhicules venant de droite.",
+    "example_en": "I give way to vehicles coming from the right.",
+    "example_tip": "Slow down early to show intent.",
+    "tags": ["priority", "intersection"]
+  }
+]
