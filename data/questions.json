@@ -1,0 +1,47 @@
+[
+  {
+    "id": "q_stop_complete",
+    "tags": ["priority", "intersection"],
+    "q_fr": "Vous arrivez à un panneau STOP. La route est libre. Que faites vous?",
+    "q_en": "You reach a STOP sign. The road is clear. What do you do?",
+    "tip": "STOP always requires a full stop.",
+    "options": [
+      { "fr": "Je ralentis et je passe si je vois bien.", "en": "I slow down and pass if I see well." },
+      { "fr": "Je m’arrête complètement puis je repars si c’est sécurisé.", "en": "I stop fully then go if safe." },
+      { "fr": "Je klaxonne et je passe.", "en": "I honk and go." }
+    ],
+    "correct": 1,
+    "explain_fr": "STOP impose un arrêt complet à la ligne ou au panneau. Ensuite vous cédez le passage si nécessaire.",
+    "explain_en": "STOP requires a complete stop at the line or sign. Then you give way if needed."
+  },
+  {
+    "id": "q_priorite_droite_no_sign",
+    "tags": ["priority", "intersection"],
+    "q_fr": "À une intersection sans panneau, un véhicule arrive à votre droite. Qui passe en premier?",
+    "q_en": "At an intersection with no signs, a vehicle arrives from your right. Who goes first?",
+    "tip": "If no signs, think priority to the right.",
+    "options": [
+      { "fr": "Moi, car je suis déjà sur la route.", "en": "Me, because I am already on the road." },
+      { "fr": "Le véhicule de droite.", "en": "The vehicle from the right." },
+      { "fr": "Celui qui accélère le plus.", "en": "Whoever accelerates more." }
+    ],
+    "correct": 1,
+    "explain_fr": "Sans signalisation, la priorité à droite s’applique. Vous cédez le passage au véhicule venant de droite.",
+    "explain_en": "Without signs, priority to the right applies. You give way to the vehicle from the right."
+  },
+  {
+    "id": "q_solid_line",
+    "tags": ["markings", "overtake", "signage"],
+    "q_fr": "Vous voyez une ligne continue au centre. Vous voulez dépasser un véhicule lent. Que faites vous?",
+    "q_en": "You see a solid center line. You want to overtake a slow vehicle. What do you do?",
+    "tip": "Solid line means no crossing.",
+    "options": [
+      { "fr": "Je dépasse si la route est vide.", "en": "I overtake if the road is empty." },
+      { "fr": "Je patiente. Je ne franchis pas la ligne.", "en": "I wait. I do not cross the line." },
+      { "fr": "Je dépasse en accélérant rapidement.", "en": "I overtake by accelerating fast." }
+    ],
+    "correct": 1,
+    "explain_fr": "Une ligne continue ne doit pas être franchie. Vous attendez une zone autorisée.",
+    "explain_en": "A solid line must not be crossed. You wait for a permitted zone."
+  }
+]
