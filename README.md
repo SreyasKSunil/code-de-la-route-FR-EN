@@ -55,6 +55,8 @@ Hosted on GitHub Pages
 
 License and usage
 
+
+MIT License
 This project is intended for personal study and learning.
 Reuse and modification are allowed for educational purposes.
 
