@@ -1,0 +1,42 @@
+[
+  {
+    "id": "priority_core",
+    "title_fr": "Priorités et intersections",
+    "title_en": "Priority and intersections",
+    "desc_fr": "Apprenez qui passe en premier. Comprenez les panneaux, les marquages au sol, et la priorité à droite.",
+    "desc_en": "Learn who goes first. Understand signs, road markings, and priority to the right.",
+    "tip": "Questions often hide missing signs. If no sign, think priority to the right.",
+    "includes": ["rules", "signs", "vocab"],
+    "tags": ["priority", "intersection"]
+  },
+  {
+    "id": "speed_limits",
+    "title_fr": "Vitesses et distances",
+    "title_en": "Speed limits and distances",
+    "desc_fr": "Retenez les vitesses selon la route, la météo, et le véhicule. Ajoutez distances de sécurité et freinage.",
+    "desc_en": "Memorize speeds by road, weather, and vehicle. Add safety distances and braking.",
+    "tip": "Speed questions often include rain, fog, or young driver scenarios.",
+    "includes": ["rules", "signs", "vocab"],
+    "tags": ["speed", "distance"]
+  },
+  {
+    "id": "overtake_parking",
+    "title_fr": "Dépassement et stationnement",
+    "title_en": "Overtaking and parking",
+    "desc_fr": "Sachez quand dépasser est interdit. Comprenez arrêt, stationnement, et zones dangereuses.",
+    "desc_en": "Know when overtaking is forbidden. Understand stopping, parking, and dangerous zones.",
+    "tip": "If visibility is limited, overtaking often becomes forbidden.",
+    "includes": ["rules", "signs", "vocab"],
+    "tags": ["overtake", "parking"]
+  },
+  {
+    "id": "signals_lights",
+    "title_fr": "Signalisation, feux, marquages",
+    "title_en": "Signals, lights, road markings",
+    "desc_fr": "Travaillez les panneaux de danger et d’interdiction. Comprenez lignes continues, discontinues, et feux.",
+    "desc_en": "Study warning and prohibition signs. Understand solid lines, broken lines, and traffic lights.",
+    "tip": "A solid line means no crossing. Even for overtaking.",
+    "includes": ["rules", "signs", "vocab"],
+    "tags": ["signage", "lights", "markings"]
+  }
+]
